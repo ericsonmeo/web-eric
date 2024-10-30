@@ -1,0 +1,104 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Mengatur tinggi body agar memenuhi tinggi layar */
+    background-image: url('bg.png'); /* Ganti dengan jalur gambar yang benar */
+    background-size: cover;        /* Mengatur gambar agar menutupi seluruh layar */
+    background-position: center;   /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat;  /* Mencegah gambar berulang */
+}
+
+.dev1 {
+    background-color: rgb(0, 0, 0);
+    height: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.linavbar {
+    text-decoration: none;
+    border: 10px solid rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+.linavbar:hover {
+    background-color: crimson;
+    transition: .3s ease-in-out;
+    transition-delay: .02s;
+    border-radius: 30px;
+}
+
+.aref {
+    color: white;
+    text-decoration: none;
+}
+
+.img-conten {
+    width: 40vh;
+    height: 10vh;
+    border-radius: 8px;
+}
+
+.h1pj {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: -20px;
+    height: 10%;
+}
+
+.p1pj {
+    color: white;
+    background-color: black;
+    margin: 10px;
+    height: 1%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.divper {
+    color: white;
+    background-color: black;
+    margin: 10px;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.Perwakilan {
+    margin: 10px;
+    height: 100%;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: crimson;
+  color: rgb(0, 0, 0);
+  padding: 1px;
+}
+
+.h1-footer {
+    font-size: 20px;
+}
